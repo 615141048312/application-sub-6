@@ -1,0 +1,5 @@
+<%= render partial: 'users/sidebar', locals: {user:@user, new_book:@new_book} %>
+<div class="col-xs-9">
+	<h2>Users</h2>
+<%= render partial: 'users/index', locals: {users: @users} %>
+</div>
